@@ -1,5 +1,5 @@
 #!/bin/bash
 
-nasm -f elf64 bf-interpreter.asm
-ld -o bf-interpreter bf-interpreter.o
-rm bf-interpreter.o
+nasm -f elf64 brainfuck-interpreter.asm
+ld -o brainfuck-interpreter brainfuck-interpreter.o
+rm brainfuck-interpreter.o
